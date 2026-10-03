@@ -1,1 +1,242 @@
 index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Jusior — A Proposed Educational Level</title>
+
+  <meta name="description"
+        content="Jusior: A proposed educational level for students who complete senior-year academic requirements during their junior year and graduate one year early.">
+  <meta name="author" content="Yves Lafortune">
+
+  <style>
+    :root {
+      --text: #202124;
+      --muted: #5f6368;
+      --line: #dadce0;
+      --background: #f8f7f3;
+      --paper: #ffffff;
+      --accent: #243447;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.7;
+    }
+
+    .page {
+      max-width: 850px;
+      margin: 0 auto;
+      padding: 70px 28px 80px;
+    }
+
+    article {
+      background: var(--paper);
+      padding: 65px 70px;
+      box-shadow: 0 2px 18px rgba(0, 0, 0, 0.05);
+    }
+
+    .label {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 12px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      font-size: 46px;
+      line-height: 1.1;
+      font-weight: 500;
+      margin: 0 0 12px;
+      color: var(--accent);
+    }
+
+    .subtitle {
+      font-size: 21px;
+      line-height: 1.4;
+      color: var(--muted);
+      margin: 0 0 35px;
+    }
+
+    .author {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      color: var(--muted);
+      padding-bottom: 30px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    section {
+      margin-top: 42px;
+    }
+
+    h2 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 18px;
+      letter-spacing: 0.3px;
+      font-weight: 600;
+      color: var(--accent);
+      margin-bottom: 14px;
+    }
+
+    .definition {
+      font-size: 25px;
+      line-height: 1.55;
+      margin: 20px 0;
+      padding: 28px 30px;
+      border-left: 4px solid var(--accent);
+      background: #f5f4f0;
+    }
+
+    .term {
+      font-weight: bold;
+    }
+
+    .publication {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 13px;
+      color: var(--muted);
+      margin-top: 45px;
+      padding-top: 25px;
+      border-top: 1px solid var(--line);
+    }
+
+    .doi {
+      display: inline-block;
+      margin-top: 8px;
+      color: var(--accent);
+      text-decoration: none;
+      word-break: break-word;
+    }
+
+    .doi:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 12px;
+      color: var(--muted);
+      margin-top: 25px;
+    }
+
+    @media (max-width: 650px) {
+      .page {
+        padding: 25px 14px 40px;
+      }
+
+      article {
+        padding: 40px 25px;
+      }
+
+      h1 {
+        font-size: 36px;
+      }
+
+      .subtitle {
+        font-size: 18px;
+      }
+
+      .definition {
+        font-size: 21px;
+        padding: 22px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="page">
+
+    <article>
+
+      <div class="label">Educational Concept · Publication</div>
+
+      <h1>Jusior</h1>
+
+      <p class="subtitle">
+        A Proposed Educational Level for Early High-School Graduation
+      </p>
+
+      <div class="author">
+        <strong>Yves Lafortune</strong><br>
+        Published October 3, 2026 · Version 1
+      </div>
+
+      <section>
+        <h2>Definition</h2>
+
+        <div class="definition">
+          <span class="term">Jusior (noun)</span><br><br>
+
+          A high-school student who, while in the junior year,
+          completes the academic requirements normally associated
+          with the senior year and becomes eligible to graduate one
+          year ahead of the traditional graduation schedule.
+        </div>
+      </section>
+
+      <section>
+        <h2>About Jusior</h2>
+
+        <p>
+          <strong>Jusior</strong> is a proposed educational term
+          describing a student who reaches senior-level academic
+          completion while still classified as a junior, making
+          early graduation possible.
+        </p>
+
+        <p>
+          The term is intended to provide a concise way to identify
+          and discuss this educational pathway.
+        </p>
+      </section>
+
+      <section>
+        <h2>Purpose</h2>
+
+        <p>
+          This publication formally introduces the term
+          <strong>Jusior</strong> as a proposed educational concept
+          for discussion, documentation, and potential future use.
+        </p>
+      </section>
+
+      <div class="publication">
+        <strong>Original publication</strong><br>
+        JUSIOR: A Proposed Educational Level for Early High-School Graduation<br>
+        Yves Lafortune · Version 1 · October 3, 2026
+
+        <br><br>
+
+        <a class="doi"
+           href="https://doi.org/10.5281/zenodo.23125006"
+           target="_blank"
+           rel="noopener noreferrer">
+          https://doi.org/10.5281/zenodo.23125006
+        </a>
+      </div>
+
+    </article>
+
+    <footer>
+      © 2026 Yves Lafortune · Jusior
+    </footer>
+
+  </main>
+
+</body>
+</html>
